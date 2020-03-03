@@ -15,7 +15,7 @@ spec:
         app.kubernetes.io/name: load-balancer-example
     spec:
       containers:
-      - image: 899488875890.dkr.ecr.ap-northeast-1.amazonaws.com/pipeline-demo-repo:latest
+      - image: 470727887694.dkr.ecr.us-east-2.amazonaws.com/ecr-eks:latest
         name: hello-world
         ports:
         - containerPort: 80
